@@ -1,0 +1,9 @@
+//remove duplicates
+int removeDuplicate(int* nums, int numsSize)
+{
+inti,n=0;
+for(i=0;i<numsSize;i++)
+{ if(nums[i]!=nums[c])
+  nums[++c]=nums[i];
+return (c+1);
+}
